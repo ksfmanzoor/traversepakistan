@@ -1,0 +1,13 @@
+section#contact {
+    background-color: #2c3d51;
+    color: #fff;
+}
+
+section#contact > div {
+    padding: 20px;
+}
+
+
+section#contact > div img {
+    margin-bottom: 60px;
+}
