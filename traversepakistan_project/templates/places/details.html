@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ place_title }} {% endblock %}
+
+{% block navbar_listitems %}
+<li>
+    <a class="page-scroll" href="#about">About</a>
+</li>
+<li>
+    <a class="page-scroll" href="#about">About</a>
+</li>
+<li>
+    <a class="page-scroll" href="#about">About</a>
+</li>
+{% endblock %}
+
+{% block sections %}
+<!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="cover">
+                    <p id="place_title">{{ place_title }}</p>
+                    <p id="place_subtitle">{{ place_subtitle }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
