@@ -13,7 +13,7 @@ class Place(models.Model):
     name = models.CharField(max_length=128, unique=True)
     title = models.CharField(max_length=128)
     subtitle = models.CharField(max_length=256)
-    coverImage = models.ImageField()
+    coverImage = models.CharField(max_length=256)
     description = models.TextField()
     gettingThere = models.TextField()
     location = GeopositionField()

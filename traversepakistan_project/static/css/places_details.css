@@ -1,0 +1,30 @@
+#cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+#place_title {
+    margin-top: 300px;
+}
+
+#map {
+    height: 350px;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+
+.grid-item {
+  height: 200px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-item-width2 { width:  40%; }
+.grid-item-width3 { width:  60%; }
+.grid-item-height2 { height: 400px; }

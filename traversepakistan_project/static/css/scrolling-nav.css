@@ -4,9 +4,23 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../fonts/century_gothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: url("../fonts/gotham_bold.ttf") format("truetype");
+}
+
 body {
     background-color: #282828;
-    font-size: 22px;
+    font-family: "CenturyGothic";
+}
+
+h1, h2 {
+    font-family: "GothamBold";
 }
 
 html {
@@ -16,11 +30,10 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        margin-top: 25px;
-        padding: 30px;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        display: flex;
+        -webkit-transition: margin .5s ease-in-out,background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: margin .5s ease-in-out,background .5s ease-in-out,padding .5s ease-in-out;
+        transition: margin .5s ease-in-out,background .5s ease-in-out,padding .5s ease-in-out;
     }
 }
 
@@ -37,21 +50,110 @@ section {
 
 a.navbar-brand {
     padding: 0px;
-    margin-top: -20px;
+}
+
+a.navbar-brand div {
+    width: 200px;
+    background-image: url(/static/images/traverse_logo_dark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: height .5s ease-in-out;
+}
+
+nav.navbar-default a.navbar-brand div {
+    height: 80px;
+}
+
+nav.top-nav-collapse a.navbar-brand div {
+    height: 50px;
 }
 
 nav.navbar-default {
-    background-color: rgba(248, 248, 248, 0.9);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgba(248, 248, 248, 0.7);
+    border: none;
+}
+
+nav.navbar-default .pills-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: padding .5s ease-in-out;
+}
+
+nav.top-nav-collapse .pills-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 nav.top-nav-collapse {
+    margin-top: 0px;
+    padding: 10px;
     background-color: rgb(248, 248, 248);
+    border: none;
 }
 
-.navbar-nav {
-    float: right;
-}
 
 .navbar-default .navbar-nav > li > a {
     color: #2c3d51;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #1abc9c;
+    outline: none;
+}
+
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+}
+nav.top-nav-collapse {
+    margin-top: 0px;
+    padding: 7px;
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(248, 248, 248);
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #2c3d51;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #1abc9c;
+    outline: none;
+}
+
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #1abc9c;
+    background-color: transparent;
+    outline: none;
+}
+
+.navbar-default .navbar-nav > .active > a + span, .navbar-default .navbar-nav > .active > a + span {
+    width: 100%;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #1abc9c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #1abc9c;
+}
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.center-container {
+    text-align: center; !important
+}
+
+.white {
+    color: #fff;
 }
