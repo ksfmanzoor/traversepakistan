@@ -61,11 +61,11 @@ WSGI_APPLICATION = 'traversepakistan_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME' : 'traversepakistan',
         'USER' : 'traverseuser',
         'PASSWORD' : 'traversepass',
-        'HOST' : '127.0.0.1',
+        'HOST' : 'localhost',
         'PORT' : '5432',
     }
 }
