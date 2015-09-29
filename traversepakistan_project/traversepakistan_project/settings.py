@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -39,7 +40,15 @@ INSTALLED_APPS = (
     'places',
     'geoposition',
     'taggit',
+    'sorl.thumbnail',
 )
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -62,11 +71,11 @@ WSGI_APPLICATION = 'traversepakistan_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'traversepakistan',
-        'USER' : 'traverseuser',
-        'PASSWORD' : 'traversepass',
-        'HOST' : 'localhost',
-        'PORT' : '5432',
+        'NAME': 'traversepakistan',
+        'USER': 'traverseuser',
+        'PASSWORD': 'traversepass',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
@@ -87,17 +96,21 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-STATIC_PATH = os.path.join(BASE_DIR,'static')
+STATIC_PATH = os.path.join(BASE_DIR, 'static')
 
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-        STATIC_PATH,
-        )
-
+    STATIC_PATH,
+)
 
 TEMPLATE_PATH = os.path.join('templates')
 
 TEMPLATE_DIRS = (
-        TEMPLATE_PATH,
-        )
+    TEMPLATE_PATH,
+)
+
+THUMBNAIL_DEBUG = True
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
+MEDIA_URL = '/static/media/'

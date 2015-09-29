@@ -1,9 +1,11 @@
+# JetBrains and Vim
+*/.idea/*
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
-# vim temp files
-*.swp
+*$py.class
 
 # C extensions
 *.so

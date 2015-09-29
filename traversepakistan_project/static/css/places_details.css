@@ -13,18 +13,71 @@
 
 /* ---- grid-item ---- */
 
+.grid {
+    margin: -1%;
+}
+
 .grid-sizer,
 .grid-item {
-  width: 20%;
+    width: 31%;
+    height: 200px;
+    margin: 1%;
+    background-size: cover;
+    background: no-repeat center center;
 }
 
-.grid-item {
-  height: 200px;
-  float: left;
-  background-size: cover;
-  background-repeat: no-repeat;
+#weather-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.grid-item-width2 { width:  40%; }
-.grid-item-width3 { width:  60%; }
-.grid-item-height2 { height: 400px; }
+#navigators div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#navigators div {
+    padding: 40px;
+    color: #bdc3c7;
+}
+
+#map-navigator:hover, #gettingthere-navigator:hover, #gallery-navigator:hover, #weather-navigator:hover {
+    color: #1abc9c;
+}
+
+#map-navigator div {
+    background-image: url(/static/images/map.png);
+}
+
+#map-navigator:hover div {
+    background-image: url(/static/images/map_hover.png);
+}
+#gettingthere-navigator div {
+    background-image: url(/static/images/gettingthere.png);
+}
+
+#gettingthere-navigator:hover div {
+    background-image: url(/static/images/gettingthere_hover.png);
+}
+
+#gallery-navigator div {
+    background-image: url(/static/images/gallery.png);
+}
+
+#gallery-navigator:hover div {
+    background-image: url(/static/images/gallery_hover.png);
+}
+
+#weather-navigator div {
+    background-image: url(/static/images/weather.png);
+}
+
+#weather-navigator:hover div {
+    background-image: url(/static/images/weather_hover.png);
+}
+
+body:after {
+    display: none;
+    content: url(/static/images/gettingthere_hover.png)url(/static/images/weather_hover.png) url(/static/images/gallery_hover.png) url(/static/images/map_hover.png);
+}
