@@ -97,6 +97,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_PATH = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = '/var/www/traversepakistan.com/static/'
 
 STATIC_URL = '/static/'
 
@@ -104,7 +105,7 @@ STATICFILES_DIRS = (
     STATIC_PATH,
 )
 
-TEMPLATE_PATH = os.path.join('templates')
+TEMPLATE_PATH = '/home/traverseuser/traversepakistan/traversepakistan_project/templates/'
 
 TEMPLATE_DIRS = (
     TEMPLATE_PATH,

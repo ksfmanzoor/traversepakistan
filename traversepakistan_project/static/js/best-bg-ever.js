@@ -13,7 +13,7 @@ var best_bg_ever = function (urlArray, element) {
     }
 
     backgroundImage = backgroundImage + "url(" + urlArray[i] + ")";
-    backgroundSize = backgroundSize + "contain";
+    backgroundSize = backgroundSize + "auto 100%";
     backgroundPosition = backgroundPosition + (totalWidth / bgCount * (bgCount - i - 1)) + "px top";
 
     element.css({
