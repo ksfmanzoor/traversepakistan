@@ -1,77 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e608779-57f0-4e68-90ee-899c37032a97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/best-bg-ever.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/places/browse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/places/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/places_browse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/places_thumbnail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/places/places_thumbnail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/traversepakistan.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/places/weather.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/places/migrations/0002_place_subtitle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/places/migrations/0003_remove_place_gallerypath.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/places/migrations/0004_auto_20150920_1648.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/covers/arangkel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/covers/rattigali.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery-thumbnails/arangkel/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallerys/arangkel/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/home_cover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/traverse_logo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/traverse_logo_light.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/places/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/places/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/places/admin.py" afterPath="$PROJECT_DIR$/places/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/places/details.html" afterPath="$PROJECT_DIR$/templates/places/details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/home.css" afterPath="$PROJECT_DIR$/static/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/places/models.py" afterPath="$PROJECT_DIR$/places/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/places_details.css" afterPath="$PROJECT_DIR$/static/css/places_details.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/scrolling-nav.css" afterPath="$PROJECT_DIR$/static/css/scrolling-nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traversepakistan_project/settings.py" afterPath="$PROJECT_DIR$/traversepakistan_project/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/traversepakistan_project.iml" afterPath="$PROJECT_DIR$/.idea/traversepakistan_project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/places/urls.py" afterPath="$PROJECT_DIR$/places/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traversepakistan_project/urls.py" afterPath="$PROJECT_DIR$/traversepakistan_project/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/places/views.py" afterPath="$PROJECT_DIR$/places/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traversepakistan_project/views.py" afterPath="$PROJECT_DIR$/traversepakistan_project/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6e608779-57f0-4e68-90ee-899c37032a97" name="Default" comment="" />
     <ignored path="traversepakistan_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -1039,7 +969,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1368" height="743" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
